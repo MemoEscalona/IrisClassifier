@@ -60,10 +60,10 @@ Reporte de Clasificación:
    weighted avg   0.97       0.97      0.97        30
 
 ### ¿Qué significa esto?
-✅ Nuestra red neuronal clasifica correctamente el 96.67% de las muestras en el conjunto de prueba.
-✅ Setosa se clasifica con 100% de precisión, mientras que versicolor y virginica tienen ligeros errores.
+- ✅ Nuestra red neuronal clasifica correctamente el 96.67% de las muestras en el conjunto de prueba.
+- ✅ Setosa se clasifica con 100% de precisión, mientras que versicolor y virginica tienen ligeros errores.
 
 ### 🎯 ¿Por qué es Importante este Proyecto?
-🔥 Demuestra la eficacia de las redes neuronales en problemas de clasificación.
-🔥 Es una excelente introducción a MLP y backpropagation en scikit-learn.
-🔥 Es portable con Docker, permitiendo fácil ejecución en cualquier sistema.
+- 🔥 Demuestra la eficacia de las redes neuronales en problemas de clasificación.
+- 🔥 Es una excelente introducción a MLP y backpropagation en scikit-learn.
+- 🔥 Es portable con Docker, permitiendo fácil ejecución en cualquier sistema.
