@@ -24,3 +24,46 @@ Necesitas instalar las siguientes dependencias:
 
 ```bash
 pip install scikit-learn numpy matplotlib
+```
+### 📌 **2 Opción 2: Ejecutar en Docker (Recomendado)**
+Si prefieres aislar el entorno con Docker, instala Docker y sigue las instrucciones más abajo.
+
+## 🚀 Ejecución del Proyecto
+### ▶ Ejecutar en Python
+Si prefieres correrlo en tu sistema sin Docker:
+```bash
+python iris_nn.py
+```
+### ▶ Ejecutar en Docker
+Si deseas ejecutarlo dentro de un contenedor Docker, sigue estos pasos:
+1️⃣ Construir la imagen de Docker:
+```bash
+docker build -t iris_nn .
+```
+2️⃣ Ejecutar el contenedor:
+```bash
+docker run --rm iris_nn
+```
+
+## 📊 Ejemplo de Resultados
+Tras entrenar la red, se obtiene un reporte de clasificación como este:
+Precisión del modelo en el conjunto de prueba: 0.9667
+
+Reporte de Clasificación:
+              precision    recall  f1-score   support
+   setosa        1.00       1.00      1.00        10
+   versicolor    1.00       0.90      0.95        10
+   virginica     0.91       1.00      0.95        10
+
+   accuracy                           0.97        30
+   macro avg      0.97       0.97      0.97        30
+   weighted avg   0.97       0.97      0.97        30
+
+### ¿Qué significa esto?
+✅ Nuestra red neuronal clasifica correctamente el 96.67% de las muestras en el conjunto de prueba.
+✅ Setosa se clasifica con 100% de precisión, mientras que versicolor y virginica tienen ligeros errores.
+
+### 🎯 ¿Por qué es Importante este Proyecto?
+🔥 Demuestra la eficacia de las redes neuronales en problemas de clasificación.
+🔥 Es una excelente introducción a MLP y backpropagation en scikit-learn.
+🔥 Es portable con Docker, permitiendo fácil ejecución en cualquier sistema.
